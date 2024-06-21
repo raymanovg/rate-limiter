@@ -1,0 +1,27 @@
+{
+  "iteration_count": 100,
+  "load_type": "linear",
+  "duration": 1,
+  "steps": [
+    {
+      "id": 1,
+      "url": "http://localhost:8000/token_bucket",
+      "method": "GET"
+    },
+    {
+      "id": 2,
+      "url": "http://localhost:8000/leaky_bucket",
+      "method": "GET"
+    },
+    {
+      "id": 3,
+      "url": "http://localhost:8000/fixed_window",
+      "method": "GET"
+    },
+    {
+      "id": 4,
+      "url": "http://localhost:8000/sliding_window",
+      "method": "GET"
+    }
+  ]
+}
