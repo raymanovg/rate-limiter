@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+	"net/http"
+
 	"github.com/raymanovg/rate_limiter/fixed_window"
 	"github.com/raymanovg/rate_limiter/leaky_bucket"
 	"github.com/raymanovg/rate_limiter/sliding_window"
-	"net/http"
-
 	"github.com/raymanovg/rate_limiter/token_bucket"
 )
 
